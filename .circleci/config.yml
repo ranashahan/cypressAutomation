@@ -17,4 +17,4 @@ workflows:
             parallelism: 2 
             browser: chrome 
             command: cy:dashboard 
-            store_artifacts: true 
+            store_artifacts: true
