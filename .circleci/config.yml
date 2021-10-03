@@ -9,8 +9,12 @@ orbs:
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  build: # This is the name of the workflow, feel free to change it to better match your workflow.
-    # Inside the workflow, you define the jobs you want to run.
-    jobs:
-      - cypress/run:
-         record: true
+    example-workflow:
+      jobs:
+        - cypress/run:
+            record: true 
+            parallel: true 
+            parallelism: 2 
+            browser: chrome 
+            command: cy:dashboard 
+            store_artifacts: true 
