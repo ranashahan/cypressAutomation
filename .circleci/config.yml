@@ -10,8 +10,8 @@ orbs:
 workflows:
     example-workflow:
       jobs:
-        - cypress/run:
-            record: true 
+        - cypress/run
+            #record: true 
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
