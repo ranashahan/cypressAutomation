@@ -16,5 +16,5 @@ workflows:
             parallel: true 
             parallelism: 2 
             browser: chrome 
-            command: npm run cy:dashboard 
+            command: ls #npm run cy:dashboard 
             store_artifacts: true
