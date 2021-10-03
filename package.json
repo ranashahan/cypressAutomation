@@ -1,0 +1,15 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "testingpurpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:dashboard":"npx cypress run --record --key 9ed5dbb4-d3cc-4808-baab-81aaf5ff94d8"
+  },
+  "author": "ranamansoor",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
