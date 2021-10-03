@@ -6,15 +6,22 @@ version: 2.1
 orbs:
   cypress: cypress-io/cypress@1.29.0
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+
 workflows:
     example-workflow:
       jobs:
         - cypress/run:
             record: true 
-            parallel: true 
-            parallelism: 2 
-            browser: chrome 
-            command: ls -a #npm run cy:dashboard 
-            store_artifacts: true
+
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+#workflows:
+#    example-workflow:
+#      jobs:
+#        - cypress/run:
+#            record: true 
+#            parallel: true 
+#            parallelism: 2 
+#            browser: chrome 
+#            command: ls -a #npm run cy:dashboard 
+#            store_artifacts: true
