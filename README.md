@@ -76,5 +76,5 @@ License - see the LICENSE.txt file for details
 [license-url]: https://github.com/ranashahan/cypressAutomation/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ranamansoorahmed/
-[githubactions-shield]: https://img.shields.io/workflow/status/ranashahan/cypressAutomation/badge.svg?style=for-the-badge
+[githubactions-shield]: https://github.com/ranashahan/cypressAutomation/actions/workflows/main.yml/badge.svg?style=for-the-badge
 [githubactions-url]: https://github.com/ranashahan/cypressAutomation/actions/workflows/main.yml
