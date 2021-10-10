@@ -1,3 +1,4 @@
+[![CircleCI][circleci-shield]][circleci-url]
 [![GithubActions][githubactions-shield]][githubactions-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -76,5 +77,7 @@ License - see the LICENSE.txt file for details
 [license-url]: https://github.com/ranashahan/cypressAutomation/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ranamansoorahmed/
-[githubactions-shield]: https://github.com/ranashahan/cypressAutomation/actions/workflows/main.yml/badge.svg?style=for-the-badge&logo=appveyor
+[githubactions-shield]: https://github.com/ranashahan/cypressAutomation/actions/workflows/main.yml/badge.svg
 [githubactions-url]: https://github.com/ranashahan/cypressAutomation/actions/workflows/main.yml
+[circleci-shield]: https://img.shields.io/circleci/build/github/ranashahan/cypressAutomation/master?style=flat-square
+[circleci-url]: https://app.circleci.com/pipelines/github/ranashahan/cypressAutomation
